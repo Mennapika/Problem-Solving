@@ -16,9 +16,11 @@
 //All the integers in nums are unique.
 //nums is sorted in ascending order.
 //***************Solution**************** */
-class Solution {
+package Algoritm;
+public class BinarySearch_704 {
     // binary search: O(LgN ) : N -> array length
     // space complexity O(1) : don't use another space to store
+    class Solution{
     public int search(int[] nums, int target) {
         //base case
         if(nums.length == 0) return -1;
@@ -42,4 +44,5 @@ class Solution {
         return -1;
         
     }
+}
 }
